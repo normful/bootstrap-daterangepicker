@@ -397,7 +397,7 @@
             } else {
                 this.container.removeClass('single');
                 this.container.find('.calendar.right').removeClass('single');
-                this.container.find('.ranges').show();
+                // this.container.find('.ranges').show();
             }
 
             this.oldStartDate = this.startDate.clone();
