@@ -823,8 +823,7 @@
             if (!this.timePicker)
                 endDate.endOf('day');
 
-            if (this.singleDatePicker && !this.timePicker)
-                this.clickApply();
+            this.clickApply();
         },
 
         clickApply: function (e) {
